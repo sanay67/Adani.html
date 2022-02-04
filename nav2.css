@@ -1,0 +1,72 @@
+.container{
+    display:grid;
+    gap:5px;
+    background-image: url(./andy-holmes-rCbdp8VCYhQ-unsplash.jpg);
+    justify-content: space-around;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    color:black;
+    height:100px    ;
+    font-family:cursive;
+    color: darkcyan;
+}
+.nav-links ul{
+    display:flex;
+    justify-content: space-around;
+   list-style: none;
+    color: black;
+    gap: 10px;
+    padding-top:20px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-padding-right: 50px;
+}
+.btn1 button{
+    border: solid white 1px;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.btn2 button{
+    border: solid rgb(224, 169, 17) 1px;
+    background-color: rgb(224, 169, 17);
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.navimage{
+    width: 50px;
+    height: 50px;
+   
+   
+    
+    
+}
+form input{
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    border: thin solid black;
+    border-radius: 5px;
+}
+
+.navimage img{
+    max-width: 100%;
+    max-height:100%;
+    color: black;
+    padding-bottom:20px;
+}
+.container p{
+    font-size:30px;
+    /* justify-content:space-around; */
+    text-align: center;
+    display: flex;
+}
+.profilepic p{
+    float: left;
+}
