@@ -2,9 +2,9 @@
     display:grid;
     height:100vh;
     grid-template-columns: 2fr 1fr;
-    color: white;
+    color: whitesmoke; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
-    font-family: cursive;
     gap:10px;
 }
 .profilepic img{
@@ -27,9 +27,16 @@
 }
 .pros{
     line-height: 50px;
-    font-size:20px;
+    font-size:18px;
     /* margin-top:10px; */
-    background-image:url(./andy-holmes-rCbdp8VCYhQ-unsplash.jpg)
+    font-size:30px;
+    color: aliceblue;
+    font-weight: bold;
+    background-image:url(./istockphoto-170958625-170667a.jpg);
+    background-size:cover;
+    color: darkblue;
+    font:bold;
+
     
 }
 
@@ -52,20 +59,35 @@ html{
     background-color:darkblue ;
 }
 .main-content{
-    background-image:url(./andy-holmes-rCbdp8VCYhQ-unsplash.jpg);
+    background-image:url(./istockphoto-170958625-170667a.jpg);
+    background-size:cover;
+        text-align:left;
+          
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 200%;
+    
+    
 }
 .member-names{
-    background-image:url(./andy-holmes-rCbdp8VCYhQ-unsplash.jpg);
-    font-size:20;
+   
+        background-image:url(./istockphoto-170958625-170667a.jpg);
+        background-size: cover;
+        font-size:150%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+        color: whitesmoke;
+        
     
 }
 
 
 
 .credits{
-    background-image:url(./andy-holmes-rCbdp8VCYhQ-unsplash.jpg);
+    background-image:url(./istockphoto-170958625-170667a.jpg);
+    background-size:cover;
     padding:20px;
     font-size:30px;
+    color: whitesmoke;
 
 }
 
@@ -73,14 +95,20 @@ html{
     text-align: justify;
     padding-top: 100px;    
     padding-left:45px;
-    color:blue;
+    color: whitesmoke;
+
     padding-right:20px;
+    /* font-size:30px; */
 
     
 }
 .member-names p{
     padding-left:30px;
     font-size:20px;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    color: aliceblue;
+    
 }
 .member-names{
     padding-left:20px;
@@ -95,9 +123,12 @@ a{
     display: inline-block;
     font-size: 16px;
     background-color: transparent;
-    
+    color:blue;
     border: thin solid blue;
-  
+    border-radius:25px;
+}
+.pros h2{
+    font-size:200%;
 }
 
 
