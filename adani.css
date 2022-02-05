@@ -121,7 +121,7 @@ a{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     background-color: transparent;
     color:blue;
     border: thin solid blue;
@@ -129,6 +129,9 @@ a{
 }
 .pros h2{
     font-size:200%;
+}
+.vid-intro{
+    font-size: 19px;
 }
 
 
